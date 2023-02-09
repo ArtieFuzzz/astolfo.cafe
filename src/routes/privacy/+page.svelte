@@ -1,5 +1,6 @@
 <div class="w-[60vw] flex flex-col justify-center items-center h-screen">
   <div class="m-20">
+    <a href="#" on:click={()=> history.back()} class="pb-10">Go Back</a>
     <h1 class="text-white">Privacy Policy</h1>
 
     <p>
