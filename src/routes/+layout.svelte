@@ -1,7 +1,10 @@
 <script>
+  import OnMount from '../components/OnMount.svelte';
   import '../app.scss';
 </script>
 
 <div class="prose prose-zinc">
-  <slot />
+  <OnMount>
+    <slot />
+  </OnMount>
 </div>
