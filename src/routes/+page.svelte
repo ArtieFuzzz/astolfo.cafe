@@ -1,9 +1,9 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 <script>
-  import { slide } from 'svelte/transition';
+  import { fly } from 'svelte/transition';
 </script>
 
-<div class="w-screen h-screen flex flex-row justify-center items-center" transition:slide>
+<div class="w-screen h-screen flex flex-row justify-center items-center" transition:fly={{ duration: 1000, delay: 50 }}>
   <img
     loading="lazy"
     src="astolfo.webp"
@@ -13,9 +13,12 @@
     height="1080"
     draggable="false"
   />
-  <div class="flex flex-col justify-center items-center md:mr-20" transition:slide>
+  <div class="flex flex-col justify-center items-center md:mr-20" transition:fly={{ duration: 1560, delay: 120 }}>
     <h1 class="text-5xl sm:text-7xl md:text-9xl m-2">Astolfo.Cafe</h1>
-    <a href="/privacy" class="text-2xl">Privacy Policy</a>
+    <div class="flex flex-row justify-start">
+      <a href="/privacy" class="text-2xl pr-3">Privacy Policy</a>
+      <a href="https://dev.astolfo.cafe" class="text-2xl">Dev</a>
+    </div>
   </div>
 </div>
 
