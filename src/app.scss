@@ -11,3 +11,13 @@ body {
 h1 {
   font-family: 'Cabin', sans-serif;
 }
+
+::-moz-selection {
+  color: black;
+  background-color: white;
+}
+
+::selection {
+  color: black;
+  background-color: white;
+}
