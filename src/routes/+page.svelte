@@ -17,8 +17,8 @@
     <h1 class="text-5xl sm:text-7xl md:text-9xl m-2">Astolfo.Cafe</h1>
     <div class="flex flex-row justify-start">
       <a href="/privacy" class="text-2xl pr-3">Privacy Policy</a>
-      <a href="https://dev.astolfo.cafe" class="text-2xl">Dev</a>
-      <a href="https://status.astolfo.cafe" class="text-2xl">Status</a>
+      <a href="https://dev.astolfo.cafe" class="text-2xl pr-2">Dev</a>
+      <a href="https://status.astolfo.cafe" class="text-2xl">Service Status</a>
     </div>
   </div>
 </div>
