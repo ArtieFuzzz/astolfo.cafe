@@ -18,6 +18,7 @@
     <div class="flex flex-row justify-start">
       <a href="/privacy" class="text-2xl pr-3">Privacy Policy</a>
       <a href="https://dev.astolfo.cafe" class="text-2xl">Dev</a>
+      <a href="https://status.astolfo.cafe" class="text-2xl">Status</a>
     </div>
   </div>
 </div>
