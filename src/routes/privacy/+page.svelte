@@ -1,14 +1,14 @@
 <!-- SPDX-License-Identifier: MPL-2.0 -->
 <script>
-  import { fade, slide } from 'svelte/transition';
+  import { slide } from 'svelte/transition';
 </script>
 
-<div class="w-[90vw] md:w-[60vw] flex flex-col justify-center items-center h-screen" transition:slide>
+<div class="w-[90vw] md:w-[60vw] flex flex-col justify-center items-center h-screen" in:slide>
   <div class="m-10 md:m-20">
     <a href="#" on:click={() => history.back()} class="pb-10">Go Back</a>
     <h1 class="text-white">Privacy Policy</h1>
 
-    <div transition:fade>
+    <div>
       <p>
         This website uses Cloudflare, visit their <a
           href="https://www.cloudflare.com/privacypolicy/">Privacy Policy</a
