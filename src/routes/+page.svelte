@@ -16,10 +16,10 @@
   <div class="flex flex-col justify-center items-center md:mr-20">
     <div class="flex flex-row items-baseline">
       <h1 class="text-5xl sm:text-7xl md:text-9xl m-2">Astolfo.Cafe</h1>
-      <a href="https://dev.astolfo.cafe" class="text-md bold pr-2">artsy.</a>
+      <a href="https://dev.astolfo.cafe" class="text-md bold pr-2">| artsy.</a>
     </div>
-    <div class="flex flex-row justify-start">
-      <a href="/privacy" class="text-2xl pr-3">Privacy Policy</a>
+    <div class="flex flex-row justify-start gap-4">
+      <a href="/privacy" class="text-2xl">Privacy Policy</a>
       <a href="https://status.astolfo.cafe" class="text-2xl">Services</a>
     </div>
   </div>
@@ -33,8 +33,11 @@
 
   a {
     text-decoration: none;
-    &:before {
-      content: "| ";
+    transition: 0.5s cubic-bezier(0.215, 0.610, 0.355, 1);
+    background: linear-gradient(currentColor 0 0) 0 100% / var(--d, 0) 2px no-repeat;
+
+    &:hover {
+      --d: 100%;
     }
   }
 
