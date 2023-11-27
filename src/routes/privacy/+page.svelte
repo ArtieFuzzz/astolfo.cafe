@@ -17,7 +17,7 @@
 
       <p>
         This website does not store any data but this site uses Plausible Analytics for Analytical
-        purposes, using a self-hosted instance @ analytics.uvvu.pw. We do not track you in any way
+        purposes, using a self-hosted instance @ analytics.astolfo.cafe. We do not track you in any way
         nor do we sell your Information to Third-Parties.
       </p>
 
