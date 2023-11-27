@@ -7,18 +7,20 @@
   <img
     loading="lazy"
     src="astolfo.webp"
-    alt="Astolfo Best Boy"
+    alt="Astolfo"
     class="max-sm:hidden lg:visible"
     width="620"
     height="1080"
     draggable="false"
   />
   <div class="flex flex-col justify-center items-center md:mr-20">
-    <h1 class="text-5xl sm:text-7xl md:text-9xl m-2">Astolfo.Cafe</h1>
+    <div class="flex flex-row items-baseline">
+      <h1 class="text-5xl sm:text-7xl md:text-9xl m-2">Astolfo.Cafe</h1>
+      <a href="https://dev.astolfo.cafe" class="text-md bold pr-2">artsy.</a>
+    </div>
     <div class="flex flex-row justify-start">
       <a href="/privacy" class="text-2xl pr-3">Privacy Policy</a>
-      <a href="https://dev.astolfo.cafe" class="text-2xl pr-2">Dev</a>
-      <a href="https://status.astolfo.cafe" class="text-2xl">Service Status</a>
+      <a href="https://status.astolfo.cafe" class="text-2xl">Services</a>
     </div>
   </div>
 </div>
@@ -27,6 +29,13 @@
   h1,
   a {
     color: white;
+  }
+
+  a {
+    text-decoration: none;
+    &:before {
+      content: "| ";
+    }
   }
 
   img {
