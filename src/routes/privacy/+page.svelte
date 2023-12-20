@@ -3,7 +3,7 @@
   import { slide } from 'svelte/transition';
 </script>
 
-<div class="w-[90vw] md:w-[60vw] flex flex-col justify-center items-center h-screen" in:slide>
+<div class="w-[90vw] md:w-[60vw] flex flex-col justify-center items-center h-screen" out:slide>
   <div class="m-10 md:m-20">
     <a href="#" on:click={() => history.back()} class="pb-10">Go Back</a>
     <h1 class="text-white">Privacy Policy</h1>
