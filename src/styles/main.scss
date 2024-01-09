@@ -1,0 +1,14 @@
+@import url('https://api.fonts.coollabs.io/css2?family=Quicksand&display=swap');
+@import url('https://api.fonts.coollabs.io/css2?family=Kanit&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:where(body) {
+  @apply bg-background;
+}
+
+:where(p, a, h1, h2, h3, h4, h5) {
+  @apply text-text;
+}
