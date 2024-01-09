@@ -1,11 +1,11 @@
 <script>
 	import '#styles/main.scss';
 
-	import Navigation from '#components/Navigation.svelte';
+	import NavBar from '#components/NavBar.svelte';
 </script>
 
 <div class="max-h-screen flex flex-col justify-center" id="main">
-	<Navigation />
+	<NavBar />
 	<slot />
 </div>
 
