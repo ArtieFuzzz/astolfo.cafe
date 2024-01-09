@@ -1,20 +1,18 @@
-<script lang='ts'>
-
-  export let name: string
-  export let profilePicture: string
-  export let title: string
+<script lang="ts">
+	export let name: string;
+	export let profilePicture: string;
+	export let title: string;
 </script>
 
-<div class='employee-card'>
-  <div class="flex justify-between items-center employee-meta">
-    <h2 class="font-heading text-3xl">{name}</h2>
-    <img src={profilePicture} alt="artsy" width="96" height="96" />
-  </div>
+<div class="employee-card">
+	<div class="flex justify-between items-center employee-meta">
+		<h2 class="font-heading text-3xl">{name}</h2>
+		<img src={profilePicture} alt="artsy" width="96" height="96" />
+	</div>
 
-  <div class="separator" />
-  <p class="font-heading text-2xl">{title}</p>
+	<div class="separator" />
+	<p class="font-heading text-2xl">{title}</p>
 </div>
-
 
 <style lang="scss">
 	:where(.employee-card) {
