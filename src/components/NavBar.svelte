@@ -1,16 +1,12 @@
 <script lang='ts'>
 	import { page } from '$app/stores';
-
-	const home = $page.url.pathname === '/';
-
-  console.log($page.url.pathname)
 </script>
 
 <header>
 	<nav class="flex flex-row justify-between w-screen p-6">
 		<p class="text-2xl">astolfo.café <span class="text-base">&copy;</span></p>
 
-		{#if home}
+		{#if $page.url.pathname === '/'}
 			<div class="flex flex-row gap-5">
 				<a href="mailto:hey@astolfo.cafe">Contact</a>
 				<a href="#menu">Menu</a>
