@@ -2,8 +2,8 @@
 	import { page } from '$app/stores';
 </script>
 
-<header>
-	<nav class="flex flex-row justify-between w-screen p-6">
+<header class='max-w-full'>
+	<nav class="flex flex-row justify-between max-w-full w-screen p-6 h-[5vh] m-0">
 		<p class="text-2xl">astolfo.café <span class="text-base">&copy;</span></p>
 
 		{#if $page.url.pathname === '/'}
