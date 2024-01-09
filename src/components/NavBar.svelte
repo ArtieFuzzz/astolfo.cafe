@@ -2,6 +2,8 @@
 	import { page } from '$app/stores';
 
 	const home = $page.url.pathname === '/';
+
+  console.log($page.url.pathname)
 </script>
 
 <header>
@@ -13,7 +15,7 @@
 				<a href="mailto:hey@astolfo.cafe">Contact</a>
 				<a href="#menu">Menu</a>
 				<a href="#employees">Employees</a>
-				<a href="#data-policy">Privacy Policy</a>
+				<a href="/data-policy">Privacy Policy</a>
 			</div>
 		{:else}
 			<a href="/">Home</a>
