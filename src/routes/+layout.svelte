@@ -4,7 +4,7 @@
 	import NavBar from '#components/NavBar.svelte';
 </script>
 
-<div class="max-h-screen flex flex-col justify-center" id="main">
+<div class="flex flex-col justify-center" id="main">
 	<NavBar />
 	<slot />
 </div>
