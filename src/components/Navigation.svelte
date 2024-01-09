@@ -1,7 +1,7 @@
-<script>
+<script lang='ts'>
 	import { page } from '$app/stores';
 
-	const home = $page.url.href === '/';
+	const home = $page.url.pathname === '/';
 </script>
 
 <header>
