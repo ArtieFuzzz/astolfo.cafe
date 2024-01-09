@@ -6,9 +6,9 @@
 @tailwind utilities;
 
 :where(body) {
-	@apply bg-background;
+  @apply bg-background;
 }
 
 :where(p, a, h1, h2, h3, h4, h5) {
-	@apply text-text;
+  @apply text-text;
 }
