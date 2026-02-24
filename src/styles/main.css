@@ -1,9 +1,7 @@
 @import url('https://api.fonts.coollabs.io/css2?family=Quicksand&display=swap');
 @import url('https://api.fonts.coollabs.io/css2?family=Kanit&display=swap');
 
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss";
 
 ::selection {
   @apply bg-accent;
